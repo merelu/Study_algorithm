@@ -82,5 +82,5 @@ class FixedQueue:
             print("큐가 비어 있습니다.")
         else:
             for i in range(self.no):
-                print(self.que[(i + self.front) % self.capacity], end="")
+                print(self.que[(i + self.front) % self.capacity], end=" ")
             print()
